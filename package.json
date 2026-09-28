@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/pushrule",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Push config/rule key checks for twelve-factor services.",
+  "bin": {
+    "pushrule": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/pushrule.git"
+  },
+  "homepage": "https://theworker02.github.io/pushrule/",
+  "keywords": [
+    "push",
+    "rule",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
